@@ -57,6 +57,8 @@ Cry0l1t3@htb[/htb]$ tree ..
     └── Results
         └── ...
 ```
+## Virtualization - Linux
+
 ### Useful update using ParrotOS as an example
 
 ```bash
