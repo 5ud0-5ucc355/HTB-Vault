@@ -1,7 +1,12 @@
---- 
-type: cheatsheet
-tags: [ #tool/nmap, #phase/enumeration ] 
+---
 
+---
+---
+type: cheatsheet
+tags:
+  - tool/nmap
+  - phase/enumeration
+status: stable
 ---
 # 🕵️‍♂️ Nmap: Network Mapper 
 > [!ABSTRACT] > This is my primary tool for port scanning and service discovery.
