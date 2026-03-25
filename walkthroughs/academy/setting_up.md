@@ -57,9 +57,20 @@ Cry0l1t3@htb[/htb]$ tree ..
     └── Results
         └── ...
 ```
-Useful update using ParrotOS as an example
+### Useful update using ParrotOS as an example
 
 ```bash
 $ sudo apt update -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y
 ```
 
+### Tool List
+
+```bash
+cat tools.list
+```
+
+### Installing Additional Tools from a List
+
+``` bash
+sudo apt install $(cat tools.list | tr "\n" " ") -y
+```
