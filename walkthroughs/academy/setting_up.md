@@ -23,7 +23,7 @@ This is the goal for every new engagement:
     │   └── Lateral-Movement
     ├── Reporting
     └── Results
-
+```
 Here's another version to structure
 
 ```text
