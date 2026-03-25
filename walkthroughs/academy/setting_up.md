@@ -74,3 +74,12 @@ cat tools.list
 ``` bash
 sudo apt install $(cat tools.list | tr "\n" " ") -y
 ```
+
+### Using Github
+
+#### Clone Github Repository
+
+``` bash
+git clone https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite.git
+```
+
