@@ -56,3 +56,10 @@ Cry0l1t3@htb[/htb]$ tree ..
     │   └── ...
     └── Results
         └── ...
+```
+Useful update using ParrotOS as an example
+
+```bash
+$ sudo apt update -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y
+```
+
