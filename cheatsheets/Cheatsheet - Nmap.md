@@ -1,7 +1,4 @@
 ---
-
----
----
 type: cheatsheet
 tags:
   - tool/nmap
