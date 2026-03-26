@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cheatsheets/Cheatsheet - File Transfers.md",
+                "file": "cheatsheets/Cheatsheet - Footprinting.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cheatsheet - File Transfers"
+              "title": "Cheatsheet - Footprinting"
             }
           }
         ],
@@ -186,8 +186,9 @@
   },
   "active": "a18e618d381b8f21",
   "lastOpenFiles": [
-    "cheatsheets/Cheatsheet - Metasploit.md",
     "cheatsheets/Cheatsheet - File Transfers.md",
+    "cheatsheets/Cheatsheet - Footprinting.md",
+    "cheatsheets/Cheatsheet - Metasploit.md",
     "Git_for_Operators.md",
     "_vault-admin/Git_for_Operators.md",
     "_vault-admin",
