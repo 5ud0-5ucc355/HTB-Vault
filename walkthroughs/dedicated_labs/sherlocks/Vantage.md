@@ -72,4 +72,18 @@ To make viewing easier as to what host the attacker discovered. From the lower l
 
 Also notice that there were a lot of POST on the cloud subdomain meaning the attacker was making input attempts against that subdomain.
 
-3. 
+3. How many login attempts did the attacker make before successfully logging in to the dashboard?
+###### ANSWER: 3
+
+Starting from the cloud.vantage.tech we see several POST request to login pages. Notice a HTTP 302 Found after 3 unsuccessful login attempts. This indicates a redirect to the user's dashboard.
+
+<img src="vantage8.png">
+
+4.  When did the attacker download the OpenStack API remote access config file? (UTC)
+
+###### ANSWER: 2025-07-01 09:40:29
+
+<img src="vantage10.png">
+
+<img src= "vantage9.png">
+

@@ -2,5 +2,7 @@
   "showInlineTitle": false,
   "propertiesInDocument": "visible",
   "useMarkdownLinks": true,
-  "newLinkFormat": "relative"
+  "newLinkFormat": "relative",
+  "newFileLocation": "root",
+  "attachmentFolderPath": "./"
 }
