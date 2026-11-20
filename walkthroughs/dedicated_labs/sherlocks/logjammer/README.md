@@ -86,7 +86,7 @@ I worked from the Hack The Box Pwnbox (a Linux machine in the browser), so nothi
 The download link from the Sherlock page contains `&` characters. In a Linux shell, an unquoted `&` means "run the previous command in the background", which cuts the link short and downloads nothing (you see `[1] 9586` job numbers and 0 bytes). The fix is to put the whole link in quotes and name the output file:
 
 ```bash
-curl -L -o logjammer.zip "<paste the full download link here>"
+curl -L -o logjammer.zip "https://labs.hackthebox.com/api/v4/challenges/557/cdn/redirect?auth_user_id=102070&expires=1795143316&signature=e68f05b32ae77c4d9c271ae3fe68e00896bd73e994a24178a6eded12fa54d066"
 file logjammer.zip
 ```
 
